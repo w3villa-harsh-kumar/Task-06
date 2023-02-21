@@ -656,7 +656,26 @@ Login and Signup Section Styles
   }
 }
 
+@media screen and (max-width: 700px){
+    .login-container .login-content, .signup-container .login-content {
+        width: 70%;
+        padding-bottom: 1rem;
+    }
+
+    .signup-container .login-form form .button-coontainer {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+      }
+}
+
 @media screen and (max-width: 400px) {
+    .login-container,
+  .signup-container {
+    width: 90%;
+    height: 90%;
+    padding: 0;
+  }
+
     .forgot-password{
         text-align: end;
     }
