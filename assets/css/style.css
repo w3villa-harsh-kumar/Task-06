@@ -301,7 +301,6 @@ Login and Signup Section Styles
 .login-container .login-form,
 .signup-container .login-form {
   width: 70%;
-  padding-bottom: 2rem;
 }
 
 .login-container .login-form form .input-container,
@@ -454,6 +453,7 @@ Login and Signup Section Styles
   text-decoration: underline;
 }
 
+.login-container .login-form form .button-coontainer,
 .signup-container .login-form form .button-coontainer {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -592,13 +592,6 @@ Login and Signup Section Styles
     width: 100%;
   }
 
-  .login-container .login-form,
-  .signup-container .login-form {
-    width: 80%;
-    height: 80%;
-    padding: 0;
-  }
-
   .login-container .login-form form,
   .signup-container .login-form form {
     width: 100%;
@@ -621,6 +614,12 @@ Login and Signup Section Styles
 
   .login-container .login-form form .login-bottom-container,
   .signup-container .login-form form .login-bottom-container {
+    padding-bottom: 1rem;
+  }
+
+
+.signup-container .login-form form .button-coontainer {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
@@ -670,6 +669,20 @@ Login and Signup Section Styles
     .signup-container {
     width: 100%;
     }
+
+    .login-container .logo .icon, .signup-container .logo .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .signup-container .login-form form .button-coontainer {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+      }
+
+      .login-container .login-content, .signup-container .login-content{
+        padding: 0;
+      }
 }
 
 @media screen and (max-width: 400px){
