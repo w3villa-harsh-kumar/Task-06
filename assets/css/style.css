@@ -588,6 +588,78 @@ Login and Signup Section Styles
 }
 
 @media screen and (max-width: 700px) {
+  .container {
+    background-color: #2571ec;
+  }
+
+  .login-container .logo .icon i,
+  .signup-container .logo .icon i {
+    color: white;
+  }
+
+  .login-container .login-content .heading,
+  .signup-container .login-content .heading {
+    color: white;
+  }
+
+  .login-container .login-content .text,
+  .signup-container .login-content .text {
+    color: white;
+  }
+
+  .login-container .login-form form .login-bottom-container .remember-me label {
+    color: white;
+  }
+
+  .login-container .login-form form .login-bottom-container .forgot-password a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .login-container .login-form form .button-coontainer button,
+  .signup-container .login-form form .button-coontainer button {
+    background: white;
+    color: #2571ec;
+  }
+
+  .login-container .other-login .icons .icon i,
+  .signup-container .other-login .icons .icon i {
+    color: white;
+  }
+
+  .login-container .other-login .text,
+  .signup-container .other-login .text {
+    color: white;
+  }
+
+  .login-container .lower .text,
+  .signup-container .lower .text {
+    color: white;
+  }
+
+  .login-container .lower .link a,
+  .signup-container .lower .link a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .login-container .login-form form .input-container input[type="text"]:focus,
+  .login-container
+    .login-form
+    form
+    .input-container
+    input[type="password"]:focus,
+  .signup-container .login-form form .input-container input[type="text"]:focus,
+  .signup-container
+    .login-form
+    form
+    .input-container
+    input[type="password"]:focus {
+    outline: none;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+
   .login-container .login-content,
   .signup-container .login-content {
     width: 70%;
@@ -605,10 +677,10 @@ Login and Signup Section Styles
   }
 
   .login-container .login-form form .button-coontainer,
-.signup-container .login-form form .button-coontainer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  .signup-container .login-form form .button-coontainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
